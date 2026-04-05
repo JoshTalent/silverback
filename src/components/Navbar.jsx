@@ -100,13 +100,7 @@ const Navbar = () => {
       to: "/events/past",
       icon: Calendar,
       description: "Previous events & results",
-    },
-    {
-      name: "Event Calendar",
-      to: "/events/calendar",
-      icon: Calendar,
-      description: "Full schedule",
-    },
+    }
   ];
 
   const isActiveLink = (path) => location.pathname === path;
