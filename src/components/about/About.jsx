@@ -241,7 +241,7 @@ const AboutUs = () => {
         <div className="flex-1 relative hidden lg:block">
           <div className="absolute inset-0 bg-gradient-to-l from-black via-black/50 to-transparent z-10" />
           <img
-            src="https://i.postimg.cc/3wZPN5V3/frank.jpg"
+            src="https://i.postimg.cc/7PdhfbW8/Screenshot-2026-04-05-141320.png"
             alt="Silverback Promotions"
             className="w-full h-full object-cover"
           />
@@ -289,11 +289,10 @@ const AboutUs = () => {
                 Born in Rwanda, Built for Champions
               </h3>
               <p className="text-white/60 text-lg leading-relaxed mb-6">
-                In 2020, former boxing champion MRJBurke founded
-                Silverback Promotions with a singular mission: to put African
-                boxing on the global map. What started as a small promotional
-                outfit has grown into the continent's most respected boxing
-                promotion company.
+                In 2020, former boxing champion MRJBurke founded Silverback
+                Promotions with a singular mission: to put African boxing on the
+                global map. What started as a small promotional outfit has grown
+                into the continent's most respected boxing promotion company.
               </p>
               <p className="text-white/60 text-lg leading-relaxed">
                 Today, Silverback Promotions represents over 25 elite fighters,
@@ -310,7 +309,7 @@ const AboutUs = () => {
             >
               <div className="relative h-96 rounded-2xl overflow-hidden">
                 <img
-                  src="https://i.postimg.cc/NFZXpFMc/571078491_17851441500576936_7306652937116194636_n.jpg"
+                  src="https://i.postimg.cc/W4Cm35GC/Screenshot_2026_04_05_114601.png"
                   alt="Silverback History"
                   className="w-full h-full object-cover"
                 />
