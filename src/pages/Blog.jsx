@@ -57,28 +57,19 @@ const Blog = () => {
   const blogPosts = [
     {
       id: 1,
-      title: "Emmanuel Kagame Defends Heavyweight Title with First-Round KO",
-      slug: "kagame-defends-title-first-round-ko",
+      title: "KIGALI FIGHT NIGHT SECOND EDITION",
+      slug: "kigali-fight-night-second-edition",
       excerpt:
-        "The Silverback lived up to his nickname with a devastating first-round knockout to retain his African Heavyweight Championship.",
+        "The Silverback Heavyweight Champion Emmanuel 'Silverback' Kagame successfully defended his title with a first-round knockout in front of a sold-out crowd at Kigali Arena.",
       content: `
-        <p>In front of a sold-out crowd at Kigali Arena, Emmanuel "Silverback" Kagame delivered yet another spectacular performance, defending his African Heavyweight Championship with a first-round knockout against challenger John Okoth.</p>
-        
-        <h2>A Dominant Performance</h2>
-        <p>From the opening bell, Kagame showcased why he's considered Africa's most feared heavyweight. The champion immediately pressured Okoth, cutting off the ring and landing heavy shots to the body. Just 2 minutes and 34 seconds into the first round, Kagame connected with a devastating right hook that sent Okoth to the canvas. The challenger was unable to beat the referee's count.</p>
-        
-        <p>"I came here to make a statement," Kagame said in his post-fight interview. "This is just the beginning. Silverback Promotions is taking over."</p>
-        
-        <h2>What's Next for the Champion?</h2>
-        <p>With this victory, Kagame improves to 12-0 with 11 KOs. Rumors are swirling about a potential showdown with Nigerian heavyweight champion in what would be a massive unification bout later this year.</p>
-        
-        <p>The event, promoted by Silverback Promotions, marked the company's largest gate to date and further cements their position as Africa's premier boxing promotion.</p>
+        <p>In a night filled with electrifying action, Emmanuel "Silverback" Kagame retained his heavyweight title with a devastating first-round knockout. The atmosphere at Kigali Arena was electric as fans witnessed one of the most dominant performances in recent boxing history.</p>
       `,
-      featuredImage: "https://i.postimg.cc/268gB9Nn/valentin3.jpg",
+      featuredImage:
+        "https://i.postimg.cc/q7xhfQmk/Screenshot_2026_04_05_121503.png",
       author: {
         name: "Ezikiel ISHIMWE",
         avatar:
-          "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&auto=format&fit=crop",
+          "https://i.postimg.cc/q7xhfQmk/Screenshot_2026_04_05_121503.png",
         role: "Founder & CEO",
       },
       date: "April 16, 2024",
@@ -91,12 +82,12 @@ const Blog = () => {
     },
     {
       id: 2,
-      title: "Grace Uwase: The Rise of Rwanda's First Female Boxing Champion",
-      slug: "grace-uwase-rise-of-first-female-champion",
+      title: "KIGALI FIGHT NIGHT FIRST EDITION",
+      slug: "kigali-fight-night-first-edition",
       excerpt:
-        "From humble beginnings to becoming Rwanda's first female professional boxing champion, Grace 'Iron Fist' Uwase's journey is an inspiration to aspiring fighters across Africa.",
+        "The inaugural Kigali Fight Night delivered an unforgettable evening of high-octane action, showcasing the best of African boxing.",
       content: `
-        <p>Grace Uwase never imagined she would become a champion. Growing up in a small village outside Kigali, boxing was the furthest thing from her mind. But today, she stands as Rwanda's first female professional boxing champion, a trailblazer who has inspired a generation.</p>
+        <p>The inaugural Kigali Fight Night delivered an unforgettable evening of high-octane action, showcasing the best of African boxing.</p>
         
         <h2>The Early Years</h2>
         <p>"I started boxing because I wanted to defend myself," Uwase recalls. "I never thought it would become my profession." Her natural talent was discovered by Coach Ezikiel ISHIMWE during a local tournament, and she's been with Silverback Promotions ever since.</p>
@@ -107,7 +98,8 @@ const Blog = () => {
         <h2>Looking Ahead</h2>
         <p>With a perfect 10-0 record and 8 KOs, Uwase has her sights set on international competition. "I want to prove that African fighters can compete with anyone in the world," she says.</p>
       `,
-      featuredImage: "https://i.postimg.cc/7h5cKC6w/Heros3.jpg",
+      featuredImage:
+        "https://i.postimg.cc/rpN06ghV/Screenshot_2026_04_05_121554.png",
       author: {
         name: "Olivier NIYIGENA",
         avatar:
@@ -121,155 +113,6 @@ const Blog = () => {
       likes: 423,
       comments: 45,
       tags: ["Women in Boxing", "Champion", "Inspiration"],
-    },
-    {
-      id: 3,
-      title: "Silverback Showdown 2024: Full Fight Card Announced",
-      slug: "silverback-showdown-2024-full-fight-card",
-      excerpt:
-        "The most anticipated boxing event of the year is almost here. Check out the complete fight card for Silverback Showdown 2024 at Kigali Arena.",
-      content: `
-        <p>Silverback Promotions has announced the full fight card for Silverback Showdown 2024, set to take place on May 20th at Kigali Arena. The event features a stacked lineup of both professional and amateur bouts.</p>
-        
-        <h2>Main Event</h2>
-        <p>The main event will feature Grace Uwase defending her Middleweight Championship against Kenyan challenger Sarah Mukamana in what promises to be an explosive matchup.</p>
-        
-        <h2>Co-Main Event</h2>
-        <p>In the co-main event, Jean "The Panther" Niyomugabo takes on David Nsengimana in a Light Heavyweight contender bout that could determine the next title challenger.</p>
-        
-        <h2>Preliminary Card</h2>
-        <p>The preliminary card will showcase up-and-coming talent from the Silverback stable, including amateur standout Kevin Nshimiyimana making his professional debut.</p>
-        
-        <p>Tickets are selling fast! Don't miss your chance to witness history live.</p>
-      `,
-      featuredImage:
-        "https://images.unsplash.com/photo-1540039155733-5bb30b53aa14?w=800&auto=format&fit=crop",
-      author: {
-        name: "Josue NTWARI",
-        avatar:
-          "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&auto=format&fit=crop",
-        role: "Executive Secretary",
-      },
-      date: "April 5, 2024",
-      readTime: "3 min read",
-      category: "event-news",
-      views: 3210,
-      likes: 567,
-      comments: 89,
-      tags: ["Event", "Fight Card", "Silverback Showdown"],
-    },
-    {
-      id: 4,
-      title: "5 Essential Boxing Drills for Beginners",
-      slug: "essential-boxing-drills-for-beginners",
-      excerpt:
-        "Start your boxing journey right with these fundamental drills that will build your technique, stamina, and confidence in the ring.",
-      content: `
-        <p>Whether you're training for fitness or dreaming of stepping into the ring, mastering the fundamentals is crucial. Here are five essential drills every beginner should practice.</p>
-        
-        <h2>1. Shadow Boxing</h2>
-        <p>Shadow boxing helps develop proper form, footwork, and muscle memory. Focus on combinations, defense, and movement around the space.</p>
-        
-        <h2>2. Heavy Bag Work</h2>
-        <p>The heavy bag builds power and endurance. Practice your combinations with proper technique, focusing on rotating your hips and shoulders.</p>
-        
-        <h2>3. Jump Rope</h2>
-        <p>Essential for footwork, rhythm, and cardio conditioning. Start with basic jumps and progress to more complex patterns.</p>
-        
-        <h2>4. Mitt Work</h2>
-        <p>Working with a coach on focus mitts develops accuracy, timing, and combination flow.</p>
-        
-        <h2>5. Core Training</h2>
-        <p>A strong core is essential for power generation and absorbing body shots. Include planks, Russian twists, and leg raises in your routine.</p>
-        
-        <p>Remember: consistency is key. Practice these drills regularly, and you'll see rapid improvement.</p>
-      `,
-      featuredImage:
-        "https://images.unsplash.com/photo-1552074284-5e88ef1aef18?w=800&auto=format&fit=crop",
-      author: {
-        name: "Olivier NIYIGENA",
-        avatar:
-          "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&auto=format&fit=crop",
-        role: "Head Coach",
-      },
-      date: "March 28, 2024",
-      readTime: "6 min read",
-      category: "training-tips",
-      views: 892,
-      likes: 156,
-      comments: 12,
-      tags: ["Training", "Beginners", "Technique"],
-    },
-    {
-      id: 5,
-      title: "Jean 'The Panther' Niyomugabo: 4 Fights, 4 KOs",
-      slug: "jean-niyomugabo-four-fights-four-kos",
-      excerpt:
-        "The Light Heavyweight prospect is on a tear, finishing all four of his professional opponents inside the distance.",
-      content: `
-        <p>At just 25 years old, Jean "The Panther" Niyomugabo is already being called the future of African boxing. With a perfect 8-1 record and 6 KOs, including 4 consecutive knockout victories, the hype is real.</p>
-        
-        <h2>A Natural Born Fighter</h2>
-        <p>Niyomugabo's boxing journey began at age 10, inspired by his father who was an amateur boxer. His explosive power and speed caught the attention of Silverback Promotions, who signed him as a professional in 2021.</p>
-        
-        <h2>Recent Success</h2>
-        <p>His last four fights have all ended in spectacular fashion. Most recently, he dismantled veteran fighter in just two rounds, landing a devastating body shot that left his opponent unable to continue.</p>
-        
-        <h2>Championship Dreams</h2>
-        <p>"I'm ready for a title shot," Niyomugabo declared. "Give me anyone in the top 5. I'll knock them out too."</p>
-        
-        <p>With his combination of power, speed, and charisma, Niyomugabo is quickly becoming a fan favorite and one of Silverback's most marketable stars.</p>
-      `,
-      featuredImage: "https://i.postimg.cc/SsT3LLmf/boxing.jpg",
-      author: {
-        name: "Ezikiel ISHIMWE",
-        avatar:
-          "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&auto=format&fit=crop",
-        role: "Founder & CEO",
-      },
-      date: "March 20, 2024",
-      readTime: "4 min read",
-      category: "fighter-spotlight",
-      views: 1450,
-      likes: 234,
-      comments: 31,
-      tags: ["Light Heavyweight", "Rising Star", "KO Artist"],
-    },
-    {
-      id: 6,
-      title: "Behind the Scenes: Producing a Silverback Event",
-      slug: "behind-the-scenes-silverback-event",
-      excerpt:
-        "Ever wondered what goes into creating a world-class boxing event? Take a look behind the curtain at Silverback Promotions.",
-      content: `
-        <p>Producing a professional boxing event requires months of planning, coordination, and execution. From securing venues to coordinating broadcast partnerships, every detail matters.</p>
-        
-        <h2>Planning Phase</h2>
-        <p>Months before fight night, our team begins identifying potential matchups, securing venues, and developing marketing strategies. Each event is designed to maximize entertainment value while ensuring athlete safety.</p>
-        
-        <h2>Production Week</h2>
-        <p>The week leading up to the event is chaos in the best possible way. Ring construction, lighting installation, sound checks, and broadcast setup all happen simultaneously.</p>
-        
-        <h2>Fight Night</h2>
-        <p>On event day, dozens of staff members work tirelessly to ensure everything runs smoothly. From medical personnel to security, referees to broadcast crews, it takes a village.</p>
-        
-        <p>The result? An unforgettable experience for fans and fighters alike.</p>
-      `,
-      featuredImage:
-        "https://images.unsplash.com/photo-1540039155733-5bb30b53aa14?w=800&auto=format&fit=crop",
-      author: {
-        name: "Josue NTWARI",
-        avatar:
-          "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&auto=format&fit=crop",
-        role: "Executive Secretary",
-      },
-      date: "March 15, 2024",
-      readTime: "5 min read",
-      category: "event-news",
-      views: 1100,
-      likes: 189,
-      comments: 15,
-      tags: ["Behind the Scenes", "Production", "Events"],
     },
   ];
 
