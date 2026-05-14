@@ -283,25 +283,6 @@ const Footer = () => {
         </div>
       </div>
 
-      {/* Decorative Elements */}
-      <div className="absolute bottom-0 left-0 w-64 h-64 bg-white/5 rounded-full -translate-x-32 translate-y-32 blur-3xl pointer-events-none"></div>
-      <div className="absolute top-0 right-0 w-48 h-48 bg-white/5 rounded-full translate-x-24 -translate-y-24 blur-3xl pointer-events-none"></div>
-
-      {/* Gorilla Silhouette Decoration */}
-      <div className="absolute bottom-20 right-20 opacity-5 pointer-events-none hidden lg:block">
-        <svg width="200" height="200" viewBox="0 0 200 200">
-          <circle cx="100" cy="100" r="80" fill="white" />
-          <circle cx="70" cy="80" r="15" fill="black" />
-          <circle cx="130" cy="80" r="15" fill="black" />
-          <ellipse cx="100" cy="120" rx="25" ry="15" fill="black" />
-          <path
-            d="M50 70 Q80 40 100 45 Q120 40 150 70"
-            stroke="white"
-            strokeWidth="8"
-            fill="none"
-          />
-        </svg>
-      </div>
     </footer>
   );
 };
